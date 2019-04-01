@@ -100,7 +100,7 @@
                 console.log(JSON.parse(index))
                 $.each(JSON.parse(index),function(key,val){
 
-                         log( "Your input was : " + val.input + ", output = " + val.input);
+                         log( "Your input was : " + val.input + ", And output is = " + val.output);
                 });
            
             }
